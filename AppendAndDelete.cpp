@@ -31,8 +31,7 @@ int main(){
     cin >> t;
     int k,i,j;
     cin >> k;
-    if(k>=s.size()+t.size())
-    {
+    if(k>=s.size()+t.size()){
         cout<<"Yes";
         return 0;
     }
