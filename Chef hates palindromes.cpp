@@ -4,11 +4,11 @@ using namespace std;
 
 int main(){
 	int t,n,a;
-	cin>>t;
+	cin>>t ;
 	while(t-->0){
 		cin>>n>>a;
 		if(a == 1){
-			cout<<n<<" ";
+			cout<<n<<"   ";
 			for(int i=0; i<n; i++){
 				cout<<"a";
 			}
@@ -18,11 +18,11 @@ int main(){
 			if(n == 1)
 				cout<<"1 a"<<endl;
 			else if(n == 2)
-				cout<<"1 ab"<<endl;
+				cout<<"1  ab "<<endl;
 			else if(n == 3)
-				cout<<"2 aab"<<endl;
+				cout<<"2 aab "<<endl;
 			else if(n == 4)
-				cout<<"2 aabb"<<endl;
+				cout<<"2 aabb "<<endl;
 			else if(n == 5)
 				cout<<"3 aabab"<<endl;
 			else if(n == 6)
