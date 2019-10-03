@@ -4,8 +4,7 @@ using namespace std;
 
 int minSteps(int n, string B){
     int count =0;
-    for(int i=2;i<n;i++)
-    {
+    for(int i=2;i<n;i++){
     	if(B[i]=='0' && B[i-1]=='1' && B[i-2]=='0')
 		{
 			count++;
