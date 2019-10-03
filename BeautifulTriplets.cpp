@@ -10,10 +10,11 @@ int main() {
 	int n,d,ctr=0,i,j,k;
 	cin>>n>>d;
 	int A[n];
-	for(i=0;i<n;i++)
+	for(i=0 ; i<n ;i++)
 	{
 		cin>>A[i];
 	}
+	//sorting
 	sort(A,A+n);
 	for(i=0;i<n;i++)
 	{
@@ -29,7 +30,7 @@ int main() {
 			}	
 		}
 	}
-	cout<<ctr;
+	cout<<ctr;//printing the value of count
     return 0;
 }
 
