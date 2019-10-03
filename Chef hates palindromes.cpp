@@ -10,7 +10,7 @@ int main(){
 		if(a == 1){
 			cout<<n<<" ";
 			for(int i=0; i<n; i++){
-				cout<<"a";
+				cout<<" a ";//print
 			}
 			cout<<endl;
 		}
