@@ -17,10 +17,10 @@ int minSteps(int n, string B){
 int main() {
     int n;
     cin >> n;
-    string B;
+    string B;//declaration 
     cin >> B;
     int result = minSteps(n, B);
-    cout << result << endl;
+    cout << result  << endl;
     return 0;
 }
 
