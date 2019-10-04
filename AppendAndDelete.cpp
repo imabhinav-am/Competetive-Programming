@@ -24,18 +24,21 @@
 using namespace std;
 
 
-int main(){
+int main()
+{
     string s;
     cin >> s;
     string t;
     cin >> t;
     int k,i,j;
     cin >> k;
-    if(k>=s.size()+t.size()){
+    if(k>=s.size()+t.size())
+    {
         cout<<"Yes";
         return 0;
     }
-    for(i=0,j=0;i<s.size()&&j<t.size();i++,j++){
+    for(i=0,j=0;i<s.size()&&j<t.size();i++,j++)
+    {
         if(s[i]!=t[j])
 		 	break;
    }
